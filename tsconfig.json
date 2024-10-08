@@ -1,0 +1,27 @@
+{
+	"include": ["./src"],
+	 "exclude": ["./build"],
+	"compilerOptions": {
+		"incremental": true,
+		"tsBuildInfoFile": "./build/.tsbuildinfo",
+		"target": "ES2022",
+		"module": "Node16",
+		"rootDir": "./src",
+		"moduleResolution": "Node16",
+		"sourceMap": true,
+		"outDir": "./build",
+		"removeComments": true,
+		"noEmitOnError": true,
+		"importHelpers": true,
+		"importsNotUsedAsValues": "remove",
+		"preserveValueImports": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"useUnknownInCatchVariables": true,
+		"alwaysStrict": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"skipLibCheck": true,
+	}
+}
